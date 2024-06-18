@@ -1,170 +1,160 @@
 *,
 *:before,
 *:after {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    display: flex;
+  display: flex;
 }
 
 header ul {
-    list-style-type: none;
-    display: inline-block;
+  list-style-type: none;
+  display: inline-block;
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
-
 section {
-    padding: 2.5rem;
+  padding: 2.5rem;
 }
 
 footer {
-    font-size: 0.7rem;
-    text-align: center;
-    color: white;
-    padding: 1.5rem;
+  font-size: 0.7rem;
+  text-align: center;
+  color: white;
+  padding: 1.5rem;
 }
 
 .background-dark {
-    background: #1f2937;
+  background: #1f2937;
 }
 
 .hero {
-    color: #e5e7eb;
+  color: #e5e7eb;
 }
-
-/* .hero h1 {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
-}
-
-.hero p {
-    font-size: 18px;
-} */
 
 header a,
 .hero p {
-    color: #e5e7eb;
+  color: #e5e7eb;
 }
 
 .gallery {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    margin-top: 2rem;
-    padding: 0 5rem;
-    font-size: 0.65rem;
-    font-weight: 100;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 0 5rem;
+  font-size: 0.65rem;
+  font-weight: 100;
 }
 
 .gallery div {
-    width: 130px;
+  width: 130px;
 }
 
 .gallery img {
-    height: 100px;
-    width: 100px;
-    border: 2px solid blue;
-    border-radius: 5px;
+  height: 100px;
+  width: 100px;
+  border: 2px solid blue;
+  border-radius: 5px;
 }
 
 .gallery p {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .quote {
-    /* padding: 3.5rem; */
-    font-style: italic;
-    font-weight: 100;
+  font-style: italic;
+  font-weight: 100;
 }
 
 .quote p {
-    text-align: end;
-    font-style: normal;
-    font-size: 0.75rem;
+  text-align: end;
+  font-style: normal;
+  font-size: 0.75rem;
 }
 
 .action-call {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
-/* .action-call, */
 .action-call button,
 .hero button {
-    border: 1px solid white;
-    border-radius: 5px;
-    background-color: #3882f6;
-    padding: 0 2em;
-    color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #3882f6;
+  padding: 0 2em;
+  color: white;
 }
 
 .action-call {
-    padding: 2.5rem;
-    color: white;
-    background-color: #3882f6;
-    /* margin: 0 auto; */
-    border-radius: 5px;
-    font-size: 0.8rem;
+  padding: 2.5rem;
+  color: white;
+  background-color: #3882f6;
+  border-radius: 5px;
+  font-size: 0.8rem;
 }
 
 .action-call h4,
 .action-call p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .action-call p {
-    font-size: 0.7rem;
+  font-size: 0.7rem;
 }
 
 #hero-section {
-    display: flex;
-    padding: 3.5rem 7rem;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  padding: 3.5rem 7rem;
+  justify-content: center;
+  align-items: center;
 }
 
 #hero-content {
-    font-size: 0.75rem !important;
-    padding: 1rem;
+  padding: 1rem;
+  /* max-width: 50%; */
+  flex: 1 1 50%;
 }
 
 #hero-content h1 {
-    font-size: 1.5rem;
-    line-height: 0.9;
+  font-size: 2rem;
+  line-height: 0.9;
 }
 
 #hero-content p {
-    font-size: 0.5rem;
-    padding: 0.25rem 0;
+  font-size: 0.85rem;
+  padding: 0.25rem 0;
 }
 
 #hero-content button {
-    border: none;
-    padding: 0.5rem 2rem;
-    text-align: center;
-    font-size: 0.8rem;
-    font-weight: bold;
+  border: none;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
 #hero-img {
-    object-fit: cover;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 100%;
+  padding: 0;
+  /* max-width: 50%; */
+  flex: 1 1 50%;
+}
+
+#hero-img img {
+  display: inline-block;
+  width: 100%;
 }
 
 #quote {
-    font-size: 0.9rem;
-    background-color: #ddd;
-    padding: 3rem 10rem;
+  font-size: 0.9rem;
+  background-color: #ddd;
+  padding: 3rem 10rem;
 }
