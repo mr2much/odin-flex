@@ -16,8 +16,8 @@ header a {
 }
 
 header > a {
-  font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 header ul {
@@ -47,6 +47,7 @@ footer {
 }
 
 .hero {
+  font-size: 18px;
   color: #e5e7eb;
 }
 
@@ -132,17 +133,17 @@ header a,
 }
 
 #hero-content {
-  /* padding: 1rem; */
   flex: 1 1 50%;
 }
 
 #hero-content h1 {
-  font-size: 3rem;
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
   line-height: 0.9;
 }
 
 #hero-content p {
-  font-size: 0.85rem;
   padding: 0.5rem 0;
   line-height: 1.25;
   margin-bottom: 0.35rem;
@@ -167,8 +168,16 @@ header a,
   width: 100%;
 }
 
+#info-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
 #quote {
-  font-size: 0.9rem;
-  background-color: #ddd;
+  background-color: #e5e7eb;
   padding: 3rem 10rem;
+  font-size: 36px;
+  font-weight: 100;
+  color: #1f2937;
 }
