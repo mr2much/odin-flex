@@ -1,0 +1,166 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+}
+
+header ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+section {
+    padding: 2.5rem;
+}
+
+footer {
+    font-size: 0.7rem;
+    text-align: center;
+    color: white;
+    padding: 1.5rem;
+}
+
+.background-dark {
+    background: #1f2937;
+}
+
+.hero {
+    color: #e5e7eb;
+}
+
+/* .hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero p {
+    font-size: 18px;
+} */
+
+header a,
+.hero p {
+    color: #e5e7eb;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 0 5rem;
+    font-size: 0.65rem;
+    font-weight: 100;
+}
+
+.gallery div {
+    width: 130px;
+}
+
+.gallery img {
+    height: 100px;
+    width: 100px;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.gallery p {
+    padding: 0;
+    margin: 0;
+}
+
+.quote {
+    /* padding: 3.5rem; */
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote p {
+    text-align: end;
+    font-style: normal;
+    font-size: 0.75rem;
+}
+
+.action-call {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .action-call, */
+.action-call button,
+.hero button {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #3882f6;
+    padding: 0 2em;
+    color: white;
+}
+
+.action-call {
+    padding: 2.5rem;
+    color: white;
+    background-color: #3882f6;
+    /* margin: 0 auto; */
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.action-call h4,
+.action-call p {
+    margin: 0;
+    padding: 0;
+}
+
+.action-call p {
+    font-size: 0.7rem;
+}
+
+#hero-section {
+    display: flex;
+    flex-direction: row;
+    padding: 3.5rem 7rem;
+}
+
+#hero-content {
+    font-size: 0.75rem !important;
+}
+
+#hero-content h1 {
+    font-size: 1.8rem;
+    line-height: 0.9;
+}
+
+#hero-content p {
+    padding: 0.25rem 0;
+}
+
+#hero-content button {
+    border: none;
+    padding: 0.5rem 2rem;
+}
+
+#hero-img {
+    /* background: url('https://placehold.co/200x100') no-repeat center;
+    background-size: cover; */
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#quote {
+    font-size: 0.9rem;
+    background-color: #ddd;
+    padding: 3rem 10rem;
+}
