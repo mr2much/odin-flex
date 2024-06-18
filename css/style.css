@@ -85,7 +85,7 @@ header a,
 }
 
 .action-call button,
-.hero button {
+.hero .button {
   border: 1px solid white;
   border-radius: 5px;
   background-color: #3882f6;
@@ -120,21 +120,23 @@ header a,
 
 #hero-content {
   padding: 1rem;
-  /* max-width: 50%; */
   flex: 1 1 50%;
 }
 
 #hero-content h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   line-height: 0.9;
 }
 
 #hero-content p {
   font-size: 0.85rem;
-  padding: 0.25rem 0;
+  padding: 0.5rem 0;
+  line-height: 1.25;
+  margin-bottom: 0.35rem;
 }
 
-#hero-content button {
+#hero-content .button {
+  text-decoration: none;
   border: none;
   padding: 0.5rem 2rem;
   text-align: center;
@@ -144,7 +146,6 @@ header a,
 
 #hero-img {
   padding: 0;
-  /* max-width: 50%; */
   flex: 1 1 50%;
 }
 
