@@ -7,11 +7,24 @@
 
 header {
   display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 7rem;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header > a {
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 header ul {
+  display: flex;
   list-style-type: none;
-  display: inline-block;
+  justify-content: space-between;
+  width: 40%;
 }
 
 h2 {
@@ -119,7 +132,7 @@ header a,
 }
 
 #hero-content {
-  padding: 1rem;
+  /* padding: 1rem; */
   flex: 1 1 50%;
 }
 
